@@ -1,0 +1,102 @@
+Bean the Dynamite Duck
+	A cuckoo crazy bird armed with Bombs. Lots and lots of bombs. Bean players will use the many ways that Bean has to deploy bombs to pester and annoy their enemies to death. 
+	
+	Unlike most Bomb users, Bean's bombs have a pretty short duration. They don't give you much use to simply hold them, though "cooking" them might give you an advantage.
+	
+	Some of Bean's specials are simply used to put bombs in different situations that you usually don't find thrown items. If Bean is holding an item, he will instead perform the intended action on the item.
+	
+Specials
+	nB:
+		Generate Bomb
+			No frills about it. Bean pulls a bomb from....somewhere.
+			
+			If Bean is holding an item, it gets converted to a bomb.
+	fB:	
+		
+		Bomb Punt
+			Bean generates a bomb and punts it in an arc through the air. Charge-able.
+			
+			
+	uB:
+		Bomb Launch
+			Bean will fidget for a moment then explode, launching himself. The attack does damage Bean, though it also damages enemies as well.
+	dB:
+		Bomb Lay
+			Bean generates a bomb and tosses it to the side
+			
+				On the floor, he will drop a bomb to his side. It will have enough power to not land directly next to him, but not enoughpower to detonate the bomb. Also works for items.
+				
+				Good for chucking bombs off of ledges. Also works on items.
+				
+				
+			
+Ground Attacks:
+
+	Jab String:
+		Marching Kicks
+			Bean does the Triple Kick combo from Sonic the Fighters. 3 Button string.
+				For every button press, Bean does a high kick while taking a step forward.
+				
+			Acts more like a true jab combo than anything particularly special.
+	
+		
+	fTilt:
+		Quick Peck
+			Bean pecks with his beak.
+	uTilt:
+		Headbutt
+			Bean does a short hop, attacking the enemy with his head.
+			
+	dTilt:
+		Scoop Kick
+			Bean gets on all fours, but instead of his body facing down, his body is facing up. Bean's hands, instead of being lifted up above his head to reach the ground (The Bridge version of being on all fours) simply rotate the other direction, remaining near his sides. From this position Bean performs a weak arc kick.
+			
+			As an attack it's somewhat slow and weak, but it has the correct stats to properly launch a bomb that happens to be on the floor.
+	fSmash:
+		Giant Kick
+			Bean winds back and does the Giant Kick launcher from Sonic the Fighters
+	dSmash:
+		Flop
+			Bean winds up and throws himself spread eagle at the ground. His impact with the floor launches enemies around him.
+	uSmash:
+		Applause (Link U-Smash)
+			Bean faces the screen excitedly, then begins to clap above his head 3 times in a row. His 3rd hit launches.
+			
+	Dash:
+		Headspin
+			Bean hops on his head and spins a few rounds before propping himself back upright.
+		
+Air Attacks:
+	uAir:
+		Drill Beak
+			Bean spins with his head facing up. Does multiple hits.
+	fAir:
+		Super Clap
+			Bean pulls off a massive clap in front of him.
+	nAir:
+		Cartwheel
+			Bean does an air cartwheel.
+	dAir:
+		Flip Swipe
+			Bean deas a backflip into a kick that arcs under him.
+	bAir:
+		Flying Tackle
+			Bean quickly extends out his arms and legs in a skydiver's pose.
+			
+			Extended hitbox.
+		
+Throws:
+	bThrow:
+		Bean turns around, points at an angle, then chucks the enemy in that direction.
+	fThrow:
+		Giant Push
+			Bean winds up his arms and pushes the enemy.
+	dThrow:
+		Present?
+			Bean pulls out a bomb and holds it out. It explodes.
+	uThrow:
+		Charged Upper
+			Bean does the uppercut launcher from Sonic the Fighters. He swings his arms around a few times before hitting.
+
+Other Notes:
+	Crouch:
