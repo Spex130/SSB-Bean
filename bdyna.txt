@@ -5,6 +5,9 @@ Bean the Dynamite Duck
 	
 	Some of Bean's specials are simply used to put bombs in different situations that you usually don't find thrown items. If Bean is holding an item, he will instead perform the intended action on the item.
 	
+	Note: 
+		[*] Completed Animation
+		[?]	Under Consideration
 Specials
 	nB:
 		Generate Bomb
@@ -32,7 +35,7 @@ Specials
 			
 Ground Attacks:
 
-	Jab String:
+	Jab String:			[*]
 		Marching Kicks
 			Bean does the Triple Kick combo from Sonic the Fighters. 3 Button string.
 				For every button press, Bean does a high kick while taking a step forward.
@@ -40,30 +43,33 @@ Ground Attacks:
 			Acts more like a true jab combo than anything particularly special.
 	
 		
-	fTilt:
+	fTilt:				[*]
 		Quick Peck
 			Bean pecks with his beak.
-	uTilt:
+	
+	uTilt:				[?]
 		Headbutt
 			Bean does a short hop, attacking the enemy with his head.
 			
-	dTilt:
+	dTilt:				[*]
 		Scoop Kick
 			Bean gets on all fours, but instead of his body facing down, his body is facing up. Bean's hands, instead of being lifted up above his head to reach the ground (The Bridge version of being on all fours) simply rotate the other direction, remaining near his sides. From this position Bean performs a weak arc kick.
 			
 			As an attack it's somewhat slow and weak, but it has the correct stats to properly launch a bomb that happens to be on the floor.
+	
 	fSmash:
 		Giant Kick
 			Bean winds back and does the Giant Kick launcher from Sonic the Fighters
+	
 	dSmash:
-		Flop
-			Bean winds up and throws himself spread eagle at the ground. His impact with the floor launches enemies around him.
+		Giant Stomp
+			Bean performs the Foot Stomp from STF. Launches enemies on the ground upwards, meteors airborne opponents.
 	uSmash:
-		Applause (Link U-Smash)
+		Applause 		[?]
 			Bean faces the screen excitedly, then begins to clap above his head 3 times in a row. His 3rd hit launches.
 			
 	Dash:
-		Headspin
+		Headspin		[?]
 			Bean hops on his head and spins a few rounds before propping himself back upright.
 		
 Air Attacks:
@@ -98,5 +104,81 @@ Throws:
 		Charged Upper
 			Bean does the uppercut launcher from Sonic the Fighters. He swings his arms around a few times before hitting.
 
-Other Notes:
-	Crouch:
+Other Necessary Animations:
+	
+	Wait1			[*]
+	Wait2			[*]
+	Wait3			[*]
+	WaitItem		[*]
+	
+	WalkBrake
+	WalkFast
+	WalkMiddle
+	WalkSlow
+	
+	Dash
+	Run
+	RunBrake
+	Turn
+	TurnRun
+	TurnRunBrake
+	
+	Squat			[*]
+	SquatWait		[*]
+	SquatRv			[*]
+
+	JumpF
+	JumpB
+	JumpSquat
+	JumpAerialF
+	JumpAerialB
+	
+	DamageFall
+	
+	Fall
+	FallAerial
+	FallAerialB
+	FallAerialF
+	FallB
+	FallF
+	FallSpecial
+	FallSpecialB
+	FallSpecialF
+	
+	LandingFallSpecial
+	LandingHeavy
+	LandingLight
+	
+	Guard
+	GuardOn
+	GuardOff
+	
+	EscapeAir
+	EscapeB
+	EscapeF
+	EscapeN
+	
+	Catch
+	CatchAttack
+	CatchCut
+	CatchDash
+	CatchTurn
+	CatchWait
+	
+	EntryL
+	EntryR
+	
+	AppealHi
+	AppealLw
+	AppealSL
+	AppealSR
+	
+	Lose
+	
+	Win1
+	Win1Wait
+	Win2
+	Win2Wait
+	Win3
+	Win3Wait
+	
