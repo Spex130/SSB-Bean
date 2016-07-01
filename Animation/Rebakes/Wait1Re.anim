@@ -1,0 +1,995 @@
+animVersion 1.1;
+mayaVersion 2014 x64;
+timeUnit film;
+linearUnit cm;
+angularUnit deg;
+startTime 1;
+endTime 20;
+anim TransN 0 1 0;
+anim rotate.rotateX rotateX WaistN 0 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 89.271818 auto fixed 1 1 0 -0.21033445 1;
+    2 89.328097 auto auto 1 1 0;
+    3 89.443345 auto auto 1 1 0;
+    4 89.512032 fixed fixed 1 1 0 0.95983987 1 0.29342693 1;
+    5 89.435586 auto fixed 1 1 0 -15.122303 1;
+    6 89.271815 fixed fixed 1 1 0 -1.2962381 1 -0.25321998 1;
+    9 89.235574 fixed fixed 1 1 0 0 1 0 1;
+    10 89.250306 fixed fixed 1 1 0 1.6931824 1 1.781181 1;
+    11 89.271821 fixed fixed 1 1 0 0.11704311 1 -0.049216922 1;
+    14 89.208345 fixed fixed 1 1 0 -0.24032842 1 0 1;
+    15 89.229141 fixed fixed 1 1 0 2.7003911 1 2.6864831 1;
+    16 89.271814 fixed fixed 1 1 0 3.5759769 1 -10.372755 1;
+    17 89.165083 fixed fixed 1 1 0 -2.2986957 1 -1.8658943 1;
+    18 89.175705 fixed fixed 1 1 0 2.5441994 1 2.7145797 1;
+    20 89.271823 fixed auto 1 1 0 0.41914024 1;
+  }
+}
+anim rotate.rotateY rotateY WaistN 0 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0.024150979 auto fixed 1 1 0 0.4258774 1;
+    2 -0.060315824 auto auto 1 1 0;
+    3 -0.23961152 auto auto 1 1 0;
+    4 -0.35232853 fixed fixed 1 1 0 -1.8828458 1 -0.83371039 1;
+    5 -0.23455916 auto fixed 1 1 0 24.889976 1;
+    6 0.024148522 fixed fixed 1 1 0 0 1 -1.1917522 1;
+    9 0.048027875 fixed fixed 1 1 0 0.39181908 1 0.30459205 1;
+    10 0.039405776 fixed fixed 1 1 0 -1.4521249 1 -1.5053088 1;
+    11 0.024146091 fixed fixed 1 1 0 0 1 -0.14374892 1;
+    14 -0.054113408 fixed fixed 1 1 0 -1.8962772 1 -1.8789003 1;
+    15 -0.081965941 fixed fixed 1 1 0 -1.2240365 1 -0.6258847 1;
+    16 0.024148818 fixed fixed 1 1 0 11.163015 1 15.717414 1;
+    17 0.18894416 fixed fixed 1 1 0 3.5983592 1 2.9395871 1;
+    18 0.1733527 fixed fixed 1 1 0 -3.8889155 1 -4.1857815 1;
+    20 0.024141767 fixed auto 1 1 0 -0.70389256 1;
+  }
+}
+anim rotate.rotateZ rotateZ WaistN 0 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 19.153799 auto fixed 1 1 0 0 1;
+    2.008 19.154076 spline spline 1 1 0;
+    3.76 19.146591 spline spline 1 1 0;
+    5.32 19.154872 spline spline 1 1 0;
+    8.608 19.152952 spline spline 1 1 0;
+    9.016 19.153629 spline spline 1 1 0;
+    10.012 19.150231 spline spline 1 1 0;
+    11.008 19.153779 spline spline 1 1 0;
+    13.012 19.1477 spline spline 1 1 0;
+    14.764 19.160712 spline spline 1 1 0;
+    16.012 19.153837 spline spline 1 1 0;
+    18.016 19.163429 spline spline 1 1 0;
+    20 19.153814 fixed auto 1 1 0 0 1;
+  }
+}
+anim BustN 0 6 0;
+anim rotate.rotateX rotateX NeckN 0 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -0.24339727 auto fixed 1 1 0 0 1;
+    2 -0.2433662 fixed fixed 1 1 0 0.19429311 1 -0.21607754 1;
+    3 -0.24351782 fixed fixed 1 1 0 -0.23280062 1 0.18617093 1;
+    4 -0.24348755 fixed fixed 1 1 0 -0.10433407 1 0 1;
+    5 -0.24351576 fixed fixed 1 1 0 0 1 0 1;
+    6 -0.24350831 fixed fixed 1 1 0 0 1 0 1;
+    9 -0.24350861 fixed fixed 1 1 0 0 1 0 1;
+    10 -0.24350154 fixed fixed 1 1 0 0 1 0 1;
+    11 -0.24349266 fixed fixed 1 1 0 0 1 0 1;
+    14 -0.24344474 fixed fixed 1 1 0 0 1 0 1;
+    15 -0.2434598 fixed fixed 1 1 0 0 1 0 1;
+    16 -0.24340748 fixed fixed 1 1 0 0 1 0 1;
+    17 -0.24340172 fixed fixed 1 1 0 0.122474 1 0 1;
+    18 -0.24345258 fixed fixed 1 1 0 0 1 0 1;
+    19 -0.24345605 fixed fixed 1 1 0 0 1 0.16650909 1;
+    20 -0.24354315 fixed auto 1 1 0 -0.22118138 1;
+  }
+}
+anim rotate.rotateY rotateY NeckN 0 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 6.4494868 auto fixed 1 1 0 0 1;
+    7 6.468337 spline spline 1 1 0;
+    16.828 6.4362466 spline spline 1 1 0;
+    20 6.4433312 fixed auto 1 1 0 0 1;
+  }
+}
+anim rotate.rotateZ rotateZ NeckN 0 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0.019239706 auto fixed 1 1 0 0.75878765 1;
+    2 0.019596409 fixed fixed 1 1 0 0.80499921 1 -0.30036691 1;
+    3 0.019250239 fixed fixed 1 1 0 -1.2305239 1 0.21237427 1;
+    4 0.019044492 fixed fixed 1 1 0 -0.54727013 1 0.42173577 1;
+    5 0.018816424 fixed fixed 1 1 0 -0.15450986 1 0 1;
+    6 0.018798666 fixed fixed 1 1 0 -0.11728857 1 0 1;
+    7 0.018776867 fixed fixed 1 1 0 0 1 0 1;
+    8 0.018806882 fixed fixed 1 1 0 0 1 0 1;
+    9 0.018793801 fixed fixed 1 1 0 0 1 0 1;
+    10 0.018824661 fixed fixed 1 1 0 0 1 0 1;
+    11 0.018875273 fixed auto 1 1 0 0 1;
+    12 0.018930528 fixed fixed 1 1 0 0 1 0 1;
+    13 0.019076155 fixed fixed 1 1 0 0.13094028 1 -0.13273678 1;
+    14 0.019129364 fixed fixed 1 1 0 0 1 0 1;
+    15 0.019096201 fixed fixed 1 1 0 -0.16131696 1 0 1;
+    16 0.019345178 fixed fixed 1 1 0 0 1 0 1;
+    17 0.019440022 fixed fixed 1 1 0 0.59001586 1 0 1;
+    18 0.019275095 fixed fixed 1 1 0 -0.7941962 1 0.10616049 1;
+    19 0.01959425 fixed fixed 1 1 0 0.24442926 1 0.60952736 1;
+    20 0.019251411 fixed auto 1 1 0 -0.98698325 1;
+  }
+}
+anim rotate.rotateX rotateX HeadN 0 10 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -0.24348928 auto fixed 1 1 0 0.32823098 1;
+    6 0.67968391 fixed fixed 1 1 0 7.955847 1 7.5328816 1;
+    11 0.15371068 fixed fixed 1 1 0 -13.893528 1 -13.940816 1;
+    16 -0.91063955 fixed fixed 1 1 0 -5.3579731 1 -4.9380671 1;
+    20 -0.56771854 fixed auto 1 1 0 0.50391273 1;
+  }
+}
+anim rotate.rotateY rotateY HeadN 0 10 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 6.449617 auto fixed 1 1 0 0 1;
+    3.472 6.4665365 spline spline 1 1 0;
+    6.844 6.4055776 spline spline 1 1 0;
+    11.8 6.5134288 spline spline 1 1 0;
+    16.816 6.402851 spline spline 1 1 0;
+    20 6.4441523 fixed auto 1 1 0 0.04092695 1;
+  }
+}
+anim rotate.rotateZ rotateZ HeadN 0 10 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0.019222867 auto fixed 1 1 0 1.9027407 1;
+    6 8.253124 fixed fixed 1 1 0 51.733612 1 50.209704 1;
+    11 3.5386543 fixed fixed 1 1 0 -65.482041 1 -65.596324 1;
+    16 -5.926819 fixed fixed 1 1 0 -40.248129 1 -37.952168 1;
+    20 -2.8572793 fixed auto 1 1 0 4.5183951 1;
+  }
+}
+anim RShoulderN 0 1 0;
+anim rotate.rotateX rotateX RShoulderJ 0 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0.36561658 auto fixed 1 1 0 -1.4880117 1;
+    4 -1.0034943 fixed fixed 1 1 0 -12.141164 1 -10.700132 1;
+    6 -0.9441875 fixed fixed 1 1 0 10.487376 1 10.85876 1;
+    11 -0.2708601 fixed fixed 1 1 0 -6.4648287 1 -7.0062121 1;
+    16 -1.035447 fixed fixed 1 1 0 5.4633987 1 6.2992858 1;
+    20 0.13845207 fixed auto 1 1 0 0.752983 1;
+  }
+}
+anim rotate.rotateY rotateY RShoulderJ 0 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -6.869282 auto fixed 1 1 0 -5.6233498 1;
+    11 -41.410331 fixed fixed 1 1 0 70.3946 1 71.281828 1;
+    20 -7.85538 fixed auto 1 1 0 3.5177626 1;
+  }
+}
+anim rotate.rotateZ rotateZ RShoulderJ 0 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 56.672644 auto fixed 1 1 0 -4.7752294 1;
+    4 50.904432 auto auto 1 1 0;
+    6 48.247181 auto auto 1 1 0;
+    11 47.140945 fixed fixed 1 1 0 -5.5103294 1 -4.9101146 1;
+    16 50.523685 auto auto 1 1 0;
+    20 55.990787 fixed auto 1 1 0 2.664327 1;
+  }
+}
+anim rotate.rotateX rotateX RArmJ 0 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0.5089357 auto fixed 1 1 0 0.063231957 1;
+    11 0.82613166 fixed fixed 1 1 0 -1.61293 1 -1.6128392 1;
+    20 0.51882978 fixed auto 1 1 0 -0.049707529 1;
+  }
+}
+anim rotate.rotateY rotateY RArmJ 0 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 40.579407 auto fixed 1 1 0 3.1874781 1;
+    6 49.626285 auto auto 1 1 0;
+    11 54.567344 fixed fixed 1 1 0 -44.026863 1 -45.656485 1;
+    20 41.102067 fixed auto 1 1 0 -1.6565542 1;
+  }
+}
+anim rotate.rotateZ rotateZ RArmJ 0 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0.18455203 auto fixed 1 1 0 0.054185628 1;
+    10.216 0.36784398 spline spline 1 1 0;
+    15.108 0.25812592 spline spline 1 1 0;
+    20 0.18882967 fixed auto 1 1 0 -0.077477357 1;
+  }
+}
+anim rotate.rotateX rotateX RHandN 0 6 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0 auto fixed 1 1 0 1.4884083 1;
+    11 16.325384 fixed fixed 1 1 0 59.138626 1 59.220356 1;
+    16 18.792255 fixed fixed 1 1 0 -73.96082 1 -74.671091 1;
+    20 2.1552172 fixed auto 1 1 0 -8.0113295 1;
+  }
+}
+anim rotate.rotateY rotateY RHandN 0 6 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0 auto auto 1 1 0;
+    5.008 7.065023e-005 spline spline 1 1 0;
+    5.68 -0.00019985242 spline spline 1 1 0;
+    6.016 3.3048268e-005 spline spline 1 1 0;
+    6.364 -0.00022023807 spline spline 1 1 0;
+    15.016 0.00012375727 spline spline 1 1 0;
+    18.016 0 spline spline 1 1 0;
+    20 0 auto auto 1 1 0;
+  }
+}
+anim forearmfixR 0 0 0;
+anim translate.translateX translateX LShoulderN 0 1 0;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0.024859028 auto auto 1 1 0;
+    20 0.024859028 auto auto 1 1 0;
+  }
+}
+anim translate.translateY translateY LShoulderN 0 1 1;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0.36686732 auto auto 1 1 0;
+    20 0.36686732 auto auto 1 1 0;
+  }
+}
+anim translate.translateZ translateZ LShoulderN 0 1 2;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -0.019655014 auto auto 1 1 0;
+    20 -0.019655014 auto auto 1 1 0;
+  }
+}
+anim rotate.rotateX rotateX LShoulderN 0 1 3;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0 auto auto 1 1 0;
+    20 0 auto auto 1 1 0;
+  }
+}
+anim rotate.rotateY rotateY LShoulderN 0 1 4;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0 auto auto 1 1 0;
+    20 0 auto auto 1 1 0;
+  }
+}
+anim rotate.rotateZ rotateZ LShoulderN 0 1 5;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0 auto fixed 1 1 0 -0.2999873 1;
+    2 0 fixed fixed 1 1 0 1.6754232 1 1.6014141 1;
+    3 0 fixed fixed 1 1 0 1.5522286 1 1.6969055 1;
+    4 0 fixed fixed 1 1 0 -0.27317808 1 0.41949781 1;
+    5 0 fixed fixed 1 1 0 -5.9919098 1 -0.30646592 1;
+    6 0 fixed auto 1 1 0 0.66027321 1;
+    7 0.00013200955 fixed fixed 1 1 0 0 1 0 1;
+    8 -0.00011048552 fixed fixed 1 1 0 0 1 0 1;
+    9 0 auto auto 1 1 0;
+    11 0 fixed fixed 1 1 0 0 1 0 1;
+    12 -0.00019195773 fixed fixed 1 1 0 0 1 0 1;
+    13 -0.00015756203 fixed fixed 1 1 0 0 1 0 1;
+    14 0 auto auto 1 1 0;
+    16 0 auto fixed 1 1 0 -0.28471225 1;
+    17 0 fixed fixed 1 1 0 0.18701047 1 -0.17466633 1;
+    18 0 fixed fixed 1 1 0 0 1 0 1;
+    19 0.00022163475 fixed fixed 1 1 0 0.099902369 1 0 1;
+    20 0 fixed auto 1 1 0 -0.13684295 1;
+  }
+}
+anim rotate.rotateX rotateX LShoulderJ 0 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -1.1029102 auto fixed 1 1 0 0.94364933 1;
+    4 0.60393858 fixed fixed 1 1 0 15.722038 1 15.136 1;
+    6 0.62564279 fixed fixed 1 1 0 -9.7338238 1 -10.036566 1;
+    11 -0.24520551 fixed fixed 1 1 0 13.545737 1 13.923518 1;
+    16 0.65463606 fixed fixed 1 1 0 -7.9452568 1 -8.3545619 1;
+    20 -0.65675435 fixed auto 1 1 0 -0.49352226 1;
+  }
+}
+anim rotate.rotateY rotateY LShoulderJ 0 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 40.128524 auto fixed 1 1 0 -2.8137752 1;
+    6 24.600831 auto auto 1 1 0;
+    11 15.510791 fixed fixed 1 1 0 61.634282 1 62.272781 1;
+    20 38.78881 fixed auto 1 1 0 1.435251 1;
+  }
+}
+anim rotate.rotateZ rotateZ LShoulderJ 0 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -54.246991 auto fixed 1 1 0 2.5984641 1;
+    4 -47.920223 auto auto 1 1 0;
+    6 -44.965658 auto auto 1 1 0;
+    11 -42.778449 fixed fixed 1 1 0 -15.73838 1 -16.16327 1;
+    16 -47.462708 auto auto 1 1 0;
+    20 -53.009399 fixed auto 1 1 0 -1.3573552 1;
+  }
+}
+anim rotate.rotateX rotateX LArmJ 0 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0.50610246 auto fixed 1 1 0 0.028941903 1;
+    10.228 0.63975015 spline spline 1 1 0;
+    20 0.51352773 fixed auto 1 1 0 -0.053611799 1;
+  }
+}
+anim rotate.rotateY rotateY LArmJ 0 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -40.417322 auto fixed 1 1 0 -0.83171475 1;
+    6 -44.61819 auto auto 1 1 0;
+    11 -46.910091 fixed fixed 1 1 0 24.869233 1 25.431815 1;
+    20 -40.810108 fixed auto 1 1 0 0.45355599 1;
+  }
+}
+anim rotate.rotateZ rotateZ LArmJ 0 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -0.18634649 auto fixed 1 1 0 -0.012273528 1;
+    1.012 -0.18634935 spline spline 1 1 0;
+    9.892 -0.24035089 spline spline 1 1 0;
+    20 -0.18884157 fixed auto 1 1 0 0.065951713 1;
+  }
+}
+anim scale.scaleY scaleY LHandN 0 6 0;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 0.99999997 auto fixed 1 1 0 0 1;
+    1.012 0.99999997 spline spline 1 1 0;
+    3.016 0.99999978 spline spline 1 1 0;
+    5.008 0.99999999 spline spline 1 1 0;
+    6.016 0.99999985 spline spline 1 1 0;
+    7.012 1.0000001 spline spline 1 1 0;
+    8.008 0.99999966 spline spline 1 1 0;
+    9.016 1 spline spline 1 1 0;
+    10.012 0.99999988 spline spline 1 1 0;
+    11.008 0.99999992 spline spline 1 1 0;
+    13.012 0.9999998 spline spline 1 1 0;
+    14.008 1.0000007 spline spline 1 1 0;
+    15.016 1 spline spline 1 1 0;
+    17.008 1.0000002 spline spline 1 1 0;
+    17.356 0.99999578 spline spline 1 1 0;
+    18.016 1 spline spline 1 1 0;
+    19.012 0.99999997 spline spline 1 1 0;
+    20 1.0000001 fixed auto 1 1 0 0 1;
+  }
+}
+anim forearmfixL 0 0 0;
+anim rotate.rotateX rotateX RLegN 0 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 94.018634 auto fixed 1 1 0 -36.541915 1;
+    3 95.062963 auto auto 1 1 0;
+    4 99.235641 fixed fixed 1 1 0 82.945981 1 83.503229 1;
+    5 99.037561 auto fixed 1 1 0 -42.989043 1;
+    6 98.540233 fixed fixed 1 1 0 -2.5100243 1 -52.438303 1;
+    7 88.741541 auto auto 1 1 0;
+    8 82.82423 auto auto 1 1 0;
+    9 79.088671 fixed fixed 1 1 0 -69.863273 1 -68.258834 1;
+    10 77.841879 fixed fixed 1 1 0 1.5822443 1 6.439805 1;
+    11 79.259043 fixed fixed 1 1 0 69.916391 1 71.585464 1;
+    13 89.675429 auto auto 1 1 0;
+    14 98.890134 fixed fixed 1 1 0 51.526093 1 -1.6388224 1;
+    16 99.759179 fixed fixed 1 1 0 46.272414 1 13.679335 1;
+    17 96.184817 auto auto 1 1 0;
+    18 93.797351 auto auto 1 1 0;
+    20 93.041893 fixed auto 1 1 0 24.559632 1;
+  }
+}
+anim rotate.rotateY rotateY RLegN 0 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 8.1622333 auto fixed 1 1 0 28.127733 1;
+    6 16.729254 auto auto 1 1 0;
+    11 18.577462 fixed fixed 1 1 0 -17.814713 1 -19.366793 1;
+    16 14.624647 auto auto 1 1 0;
+    20 9.2563399 fixed auto 1 1 0 -19.561406 1;
+  }
+}
+anim rotate.rotateZ rotateZ RLegN 0 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -1.0502474 auto fixed 1 1 0 16.103073 1;
+    6 0.84385053 auto auto 1 1 0;
+    7 3.0849003 auto auto 1 1 0;
+    8 4.6084762 auto auto 1 1 0;
+    9 5.603208 fixed fixed 1 1 0 36.271737 1 34.018297 1;
+    10 5.9541664 fixed fixed 1 1 0 1.4652757 1 0.22733276 1;
+    11 5.6297553 fixed fixed 1 1 0 -33.191144 1 -36.061087 1;
+    13 3.0473909 auto auto 1 1 0;
+    14 0.89430753 fixed fixed 1 1 0 -40.341102 1 -32.184913 1;
+    16 -0.40659083 fixed fixed 1 1 0 -33.525164 1 -34.059824 1;
+    17 -0.51453968 fixed fixed 1 1 0 14.947355 1 15.519061 1;
+    18 -0.28792127 fixed fixed 1 1 0 -1.0094014 1 -3.2319975 1;
+    20 -0.54476334 fixed auto 1 1 0 -9.7439965 1;
+  }
+}
+anim rotate.rotateX rotateX RKneeJ 0 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 28.302538 auto fixed 1 1 0 14.06599 1;
+    3 19.067685 auto auto 1 1 0;
+    4 5.5408544 fixed fixed 1 1 0 -87.36301 1 -87.530753 1;
+    5 2.7237264 fixed fixed 1 1 0 39.760662 1 -7.7407883 1;
+    6 2.2832715 fixed fixed 1 1 0 -35.555755 1 65.707321 1;
+    7 23.753055 auto auto 1 1 0;
+    8 37.20682 auto auto 1 1 0;
+    9 45.971523 fixed fixed 1 1 0 81.241658 1 80.504837 1;
+    10 49.005533 auto auto 1 1 0;
+    11 45.851536 fixed fixed 1 1 0 -80.836491 1 -81.654795 1;
+    13 22.39419 auto auto 1 1 0;
+    14 2.268209 fixed fixed 1 1 0 -65.003655 1 35.599902 1;
+    15 2.5131172 fixed fixed 1 1 0 -0.24067578 1 -0.25753837 1;
+    16 2.7488285 auto fixed 1 1 0 48.342238 1;
+    17 12.751575 auto auto 1 1 0;
+    18 20.903631 auto auto 1 1 0;
+    20 26.96128 fixed auto 1 1 0 -8.9193263 1;
+  }
+}
+anim rotate.rotateY rotateY RKneeJ 0 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -10.550286 auto fixed 1 1 0 -1.2133937 1;
+    4 -9.2374348 fixed fixed 1 1 0 39.702845 1 42.707247 1;
+    6 -11.75758 fixed fixed 1 1 0 -65.543889 1 -66.418153 1;
+    7 -14.319696 auto auto 1 1 0;
+    8 -15.612899 auto auto 1 1 0;
+    9 -16.065628 fixed fixed 1 1 0 -10.787008 1 -9.2704945 1;
+    10 -16.151535 fixed fixed 1 1 0 -0.89774961 1 -0.66132085 1;
+    11 -16.108459 fixed fixed 1 1 0 5.1776351 1 7.4513795 1;
+    13 -14.495484 auto auto 1 1 0;
+    14 -11.868014 fixed fixed 1 1 0 67.613736 1 66.218964 1;
+    16 -8.993905 fixed fixed 1 1 0 30.90427 1 27.10335 1;
+    20 -10.522144 fixed auto 1 1 0 0.058999448 1;
+  }
+}
+anim rotate.rotateZ rotateZ RKneeJ 0 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -4.4819588 auto fixed 1 1 0 -4.3699486 1;
+    4 -0.81522063 fixed fixed 1 1 0 73.095585 1 73.935302 1;
+    5 -0.44069837 auto fixed 1 1 0 -3.382023 1;
+    6 -0.48017298 fixed fixed 1 1 0 -0.60783193 1 -32.764114 1;
+    7 -5.4870067 auto auto 1 1 0;
+    8 -9.6000324 auto auto 1 1 0;
+    9 -12.720272 fixed fixed 1 1 0 -67.650285 1 -65.953133 1;
+    10 -13.861286 auto auto 1 1 0;
+    11 -12.724704 fixed fixed 1 1 0 65.954369 1 67.79835 1;
+    13 -5.2664791 auto auto 1 1 0;
+    14 -0.48672159 fixed fixed 1 1 0 32.507169 1 0.6445681 1;
+    16 -0.38119926 fixed fixed 1 1 0 3.0243877 1 -2.8912426 1;
+    18 -3.1049082 auto auto 1 1 0;
+    20 -4.2650847 fixed auto 1 1 0 1.8586396 1;
+  }
+}
+anim rotate.rotateX rotateX RFootJ 0 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -11.752448 auto fixed 1 1 0 25.266395 1;
+    3 -3.6424034 auto auto 1 1 0;
+    4 5.3127949 fixed fixed 1 1 0 85.532034 1 85.724782 1;
+    5 8.147618 auto fixed 1 1 0 31.975363 1;
+    6 8.6690034 fixed fixed 1 1 0 23.703463 1 -45.312735 1;
+    7 -1.6659285 auto auto 1 1 0;
+    8 -7.9340762 auto auto 1 1 0;
+    9 -11.868936 fixed fixed 1 1 0 -70.74561 1 -69.207773 1;
+    10 -13.207152 auto auto 1 1 0;
+    11 -11.848902 fixed fixed 1 1 0 69.489177 1 71.266747 1;
+    13 -1.2509995 auto auto 1 1 0;
+    14 8.3846244 fixed fixed 1 1 0 44.511639 1 -23.696073 1;
+    16 7.1429519 fixed fixed 1 1 0 -44.126133 1 -58.941022 1;
+    17 0.94366407 auto auto 1 1 0;
+    18 -4.4693959 auto auto 1 1 0;
+    20 -9.3342895 fixed auto 1 1 0 -14.32986 1;
+  }
+}
+anim rotate.rotateY rotateY RFootJ 0 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -5.6260879 auto fixed 1 1 0 -5.786275 1;
+    4 -10.642185 fixed fixed 1 1 0 -75.252784 1 -75.666851 1;
+    5 -11.806141 auto auto 1 1 0;
+    6 -12.988874 fixed fixed 1 1 0 -56.098758 1 -48.722335 1;
+    7 -11.399503 auto auto 1 1 0;
+    8 -10.591557 auto auto 1 1 0;
+    9 -10.023625 fixed fixed 1 1 0 24.179309 1 22.72887 1;
+    10 -9.8086465 fixed fixed 1 1 0 0.76304718 1 0 1;
+    11 -10.005159 fixed fixed 1 1 0 -21.351402 1 -23.026533 1;
+    13 -11.433434 auto auto 1 1 0;
+    14 -12.830806 fixed fixed 1 1 0 48.023654 1 55.24772 1;
+    16 -11.25528 fixed fixed 1 1 0 25.507058 1 29.771927 1;
+    18 -7.7748986 auto auto 1 1 0;
+    20 -6.383412 fixed auto 1 1 0 3.6631688 1;
+  }
+}
+anim rotate.rotateZ rotateZ RFootJ 0 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 17.598067 auto fixed 1 1 0 3.977153 1;
+    6 16.934821 fixed fixed 1 1 0 27.699708 1 49.243656 1;
+    7 22.241853 auto auto 1 1 0;
+    8 26.287576 auto auto 1 1 0;
+    9 29.31954 fixed fixed 1 1 0 67.092053 1 65.390223 1;
+    10 30.430899 auto auto 1 1 0;
+    11 29.34204 fixed fixed 1 1 0 -65.023906 1 -66.871363 1;
+    13 22.226351 auto auto 1 1 0;
+    14 17.263018 fixed fixed 1 1 0 -47.502927 1 -26.35999 1;
+    16 15.92961 fixed fixed 1 1 0 -37.541045 1 -33.758097 1;
+    18 17.273539 auto auto 1 1 0;
+    20 17.513475 fixed auto 1 1 0 -3.3617933 1;
+  }
+}
+anim rotate.rotateX rotateX RToeN 0 0 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -10.248498 auto fixed 1 1 0 -5.0355531 1;
+    4 -14.525592 fixed fixed 1 1 0 -55.882682 1 -53.903491 1;
+    5 -15.256187 fixed fixed 1 1 0 -7.9940594 1 -6.0008177 1;
+    6 -14.883101 fixed fixed 1 1 0 38.67778 1 40.730293 1;
+    11 -11.407584 fixed fixed 1 1 0 -38.579921 1 -41.004699 1;
+    16 -14.882175 fixed fixed 1 1 0 37.547551 1 40.091728 1;
+    20 -11.112269 fixed auto 1 1 0 2.6901979 1;
+  }
+}
+anim rotate.rotateY rotateY RToeN 0 0 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -2.4087402 auto fixed 1 1 0 -0.5205165 1;
+    11 -4.4555301 fixed fixed 1 1 0 9.3423157 1 10.117853 1;
+    20 -2.5788242 fixed auto 1 1 0 0.30991674 1;
+  }
+}
+anim rotate.rotateZ rotateZ RToeN 0 0 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 2.4877035 auto fixed 1 1 0 0.89262302 1;
+    4 3.2121014 auto auto 1 1 0;
+    6 3.4400366 fixed fixed 1 1 0 0.77148171 1 0.31468514 1;
+    11 3.3115553 fixed fixed 1 1 0 2.5481077 1 2.753665 1;
+    16 3.2830971 fixed fixed 1 1 0 -9.5548259 1 -10.024442 1;
+    20 2.6301824 fixed auto 1 1 0 -0.42120792 1;
+  }
+}
+anim RFootE 0 0 0;
+anim legfixR 0 0 0;
+anim tail1U 0 1 0;
+anim tail2U 0 0 0;
+anim tail1D 0 1 0;
+anim tail2D 0 0 0;
+anim rotate.rotateX rotateX LLegN 0 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 57.444356 auto fixed 1 1 0 16.801622 1;
+    4 63.676311 fixed fixed 1 1 0 72.46841 1 72.376899 1;
+    5 65.5463 fixed fixed 1 1 0 -30.95732 1 -47.910942 1;
+    6 63.534273 fixed fixed 1 1 0 -68.677873 1 -68.551439 1;
+    9 59.838436 fixed fixed 1 1 0 -6.0317687 1 -4.452979 1;
+    11 58.956814 fixed fixed 1 1 0 -55.160061 1 -56.292394 1;
+    14 60.507619 fixed fixed 1 1 0 79.642267 1 79.654349 1;
+    15 64.955543 auto auto 1 1 0;
+    16 66.729813 fixed fixed 1 1 0 51.818487 1 44.359306 1;
+    18 63.649291 fixed fixed 1 1 0 -75.458318 1 -75.461931 1;
+    20 59.366414 fixed auto 1 1 0 -13.365269 1;
+  }
+}
+anim rotate.rotateY rotateY LLegN 0 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -18.859601 auto fixed 1 1 0 41.726035 1;
+    6 -9.7002073 fixed fixed 1 1 0 10.909169 1 7.602243 1;
+    11 -10.44343 fixed fixed 1 1 0 -11.897076 1 -11.822319 1;
+    16 -10.868612 fixed auto 1 1 0 -24.600683 1;
+    20 -16.781352 fixed auto 1 1 0 -29.533444 1;
+  }
+}
+anim rotate.rotateZ rotateZ LLegN 0 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 39.045519 auto fixed 1 1 0 -14.671231 1;
+    4 37.611523 fixed fixed 1 1 0 -1.0287296 1 -0.07288735 1;
+    6 36.997639 fixed fixed 1 1 0 -29.827132 1 -29.948682 1;
+    11 35.657192 fixed fixed 1 1 0 18.039764 1 18.453378 1;
+    20 38.538468 fixed auto 1 1 0 8.276013 1;
+  }
+}
+anim rotate.rotateX rotateX LKneeJ 0 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 32.265989 auto fixed 1 1 0 -39.610647 1;
+    4 18.314418 fixed fixed 1 1 0 -81.488432 1 -81.382285 1;
+    5 14.933718 fixed fixed 1 1 0 67.913582 1 74.677149 1;
+    6 21.446575 fixed fixed 1 1 0 83.344605 1 83.413439 1;
+    9 40.990268 auto auto 1 1 0;
+    11 42.358448 fixed fixed 1 1 0 -29.994786 1 -32.753308 1;
+    14 27.546065 fixed fixed 1 1 0 -85.396715 1 -85.322696 1;
+    16 14.219047 fixed fixed 1 1 0 -66.896205 1 -64.369151 1;
+    20 28.084943 fixed auto 1 1 0 28.902198 1;
+  }
+}
+anim rotate.rotateY rotateY LKneeJ 0 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -4.4745398 auto fixed 1 1 0 36.357954 1;
+    6 0.43746136 fixed fixed 1 1 0 64.820572 1 64.895287 1;
+    11 5.2157177 fixed fixed 1 1 0 -23.488338 1 -25.842767 1;
+    14 -0.23560341 fixed fixed 1 1 0 -68.186967 1 -67.559703 1;
+    16 -2.8603955 fixed fixed 1 1 0 -58.45825 1 -58.724758 1;
+    20 -4.5831729 fixed auto 1 1 0 -3.0017655 1;
+  }
+}
+anim rotate.rotateZ rotateZ LKneeJ 0 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -4.3086791 auto fixed 1 1 0 31.208217 1;
+    4 -1.4176912 auto auto 1 1 0;
+    6 -0.68767864 fixed auto 1 1 0 18.598878 1;
+    11 1.4255882 fixed fixed 1 1 0 -22.010098 1 -24.484509 1;
+    13 -0.94642033 auto auto 1 1 0;
+    14 -1.4583213 fixed fixed 1 1 0 -5.1325738 1 -2.5030204 1;
+    16 -1.0988772 fixed fixed 1 1 0 -6.3805877 1 -8.342014 1;
+    20 -3.5546361 fixed auto 1 1 0 -7.0753959 1;
+  }
+}
+anim rotate.rotateX rotateX LFootJ 0 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 9.2814426 auto fixed 1 1 0 50.659937 1;
+    4 21.621256 fixed fixed 1 1 0 77.257485 1 76.584575 1;
+    6 17.181916 fixed fixed 1 1 0 -83.030778 1 -83.188958 1;
+    11 -6.6795885 fixed fixed 1 1 0 78.374078 1 79.017072 1;
+    14 15.639305 auto auto 1 1 0;
+    16 21.12134 fixed fixed 1 1 0 -32.978667 1 -39.213871 1;
+    20 12.021746 fixed auto 1 1 0 -11.725827 1;
+  }
+}
+anim rotate.rotateY rotateY LFootJ 0 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -0.948471 auto fixed 1 1 0 18.480354 1;
+    4 3.8018068 fixed fixed 1 1 0 59.536307 1 58.353229 1;
+    6 3.7761796 fixed fixed 1 1 0 -50.484418 1 -50.92727 1;
+    11 0.74959045 fixed fixed 1 1 0 18.892775 1 24.732661 1;
+    12 2.5165902 auto auto 1 1 0;
+    13 3.7278913 auto auto 1 1 0;
+    14 4.8428938 fixed fixed 1 1 0 41.95566 1 35.788993 1;
+    15 3.9764999 auto auto 1 1 0;
+    16 3.0559951 fixed fixed 1 1 0 -47.672067 1 -48.416069 1;
+    18 0.56334073 auto auto 1 1 0;
+    20 -0.23125682 fixed auto 1 1 0 -2.978123 1;
+  }
+}
+anim rotate.rotateZ rotateZ LFootJ 0 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -10.943253 auto fixed 1 1 0 0.72482517 1;
+    4 -9.2989196 fixed fixed 1 1 0 48.405114 1 48.477957 1;
+    6 -7.9375302 fixed fixed 1 1 0 11.194582 1 9.9033081 1;
+    11 -8.5016088 fixed fixed 1 1 0 3.1461798 1 3.4418679 1;
+    16 -9.2812026 fixed fixed 1 1 0 -32.04569 1 -32.536668 1;
+    20 -10.989314 fixed auto 1 1 0 2.5746377 1;
+  }
+}
+anim rotate.rotateX rotateX LToeN 0 0 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -10.22932 auto fixed 1 1 0 -3.3742616 1;
+    6 -14.017719 fixed fixed 1 1 0 66.209996 1 67.32624 1;
+    11 -5.0150417 fixed fixed 1 1 0 -73.229101 1 -74.007497 1;
+    14 -15.285596 auto auto 1 1 0;
+    16 -12.942385 fixed fixed 1 1 0 60.334824 1 60.134536 1;
+    20 -10.603219 fixed auto 1 1 0 0 1;
+  }
+}
+anim rotate.rotateY rotateY LToeN 0 0 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -0.25904262 auto fixed 1 1 0 -0.60292743 1;
+    4 -0.98731555 fixed fixed 1 1 0 -13.168933 1 -12.534371 1;
+    6 -1.0070519 fixed fixed 1 1 0 11.017343 1 11.694886 1;
+    11 -0.094953275 fixed fixed 1 1 0 -21.035007 1 -21.865544 1;
+    14 -1.1127923 auto auto 1 1 0;
+    16 -0.73221678 fixed fixed 1 1 0 16.419134 1 16.471462 1;
+    18 -0.32622044 auto fixed 1 1 0 0 1;
+    19 -0.32618458 fixed fixed 1 1 0 0 1 0 1;
+    20 -0.32622311 fixed auto 1 1 0 0 1;
+  }
+}
+anim rotate.rotateZ rotateZ LToeN 0 0 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    1 -0.54129971 auto fixed 1 1 0 0.4260942 1;
+    6 0.010469725 fixed fixed 1 1 0 -14.473115 1 -15.204372 1;
+    9 -0.93619646 fixed fixed 1 1 0 -11.042821 1 -10.427688 1;
+    11 -0.88387828 fixed fixed 1 1 0 15.491723 1 16.402593 1;
+    14 0.15722725 auto auto 1 1 0;
+    16 -0.18469591 fixed fixed 1 1 0 -13.783113 1 -13.620494 1;
+    20 -0.49474632 auto auto 1 1 0;
+  }
+}
+anim LFootE 0 0 0;
+anim legfixL 0 0 0;
